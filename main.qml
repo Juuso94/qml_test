@@ -44,7 +44,7 @@ Window {
         }
 
         onPaint: {
-            //cool stuff
+
             var ctx = getContext("2d")
             ctx.lineWidth = 2
             ctx.strokeStyle = color.red
